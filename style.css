@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    text-align: center;
+    background-image: url("https://static1.squarespace.com/static/52991946e4b06bb4b8f46779/t/55f8191ee4b0fb0e9ba809b5/1541714042695/");
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+header{
+    border: 10px groove orangered;
+    background: orange;
+    color: maroon;
+    text-decoration: underline overline;
+    width: 70%;
+    align-self: center
+}
+
+img{
+    border: 10px outset orangered;
+    margin: 10px;
+    width: 40%;
+    height: 40%;
+    background: url("https://media.giphy.com/media/IntrwtqEDjILm/giphy.gif");
+    background-position: cover
+
+}
+
+h2{
+    display: flex;
+    border: 10px outset orangered;
+    background: orange;
+    color: maroon;
+    width: 50%;
+    justify-content:center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+
+}
